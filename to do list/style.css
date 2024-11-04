@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+body{
+
+    margin: 0;
+    background-color: rgb(206, 136, 33);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+li{
+    margin-bottom: 0.5rem;
+}
+button{
+    margin-left: 1rem;
+}
