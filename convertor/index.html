@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js"defer></script>
+</head>
+<body>
+    <section>
+        <div class="amount">
+            <label for="Amount">Amount:</label>
+        <input type="text" name="Amount" id="amount">
+    </div>
+    <div class="units">
+        <label for="From">From:</label>
+        <select name="From" id="fromunit">
+            <option value="meters">METER</option>
+            <option value="centimeter">CENTIMETER</option>
+            <option value="millimeter">MILLIMETER</option>
+        </select>
+
+
+    <label for="To">To:</label>
+    <select name="To" id="tounit">
+        <option value="meters">METER</option>
+        <option value="centimeter">CENTIMETER</option>
+        <option value="millimeter">MILLIMETER</option>
+    </select>
+</div>
+<button>CONVERT</button>
+<div>result:<h2 id="result"></h2></div>
+</section>
+
+    
+</body>
+</html>
